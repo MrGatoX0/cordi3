@@ -1,59 +1,59 @@
-[27Nov2024 03:39:54.016] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[27Nov2024 03:39:54.020] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.4 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
-[27Nov2024 03:39:56.232] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[27Nov2024 03:39:56.336] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/cordi3/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[27Nov2024 03:39:57.047] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/cordi3/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[27Nov2024 03:39:57.053] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/cordi3/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[27Nov2024 03:39:57.057] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/cordi3/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[27Nov2024 03:39:57.059] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/cordi3/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[27Nov2024 03:39:57.494] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: playeranimator. Using Mod File: /workspaces/cordi3/servidor_minecraft/mods/player-animation-lib-forge-1.0.2-rc1+1.20.jar
-[27Nov2024 03:39:57.495] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 10 dependencies adding them to mods collection
-[27Nov2024 03:40:01.627] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[27Nov2024 03:40:01.858] [main/ERROR] [mixin/]: Mixin config necronomicon.forge.mixins.json does not specify "minVersion" property
-[27Nov2024 03:40:01.942] [main/ERROR] [mixin/]: Mixin config furniture-common.mixins.json does not specify "minVersion" property
-[27Nov2024 03:40:02.093] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [de.maxhenkel.camera.MixinConnector]
-[27Nov2024 03:40:02.098] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[27Nov2024 03:40:02.136] [main/WARN] [mixin/]: Reference map 'graveyard-FORGE-forge-refmap.json' for graveyard-forge.mixins.json could not be read. If this is a development environment you can ignore this message
-[27Nov2024 03:40:02.380] [main/WARN] [mixin/]: Reference map 'mixins.call_of_yucutan.refmap.json' for mixins.call_of_yucutan.json could not be read. If this is a development environment you can ignore this message
-[27Nov2024 03:40:02.404] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 127 options available, 0 override(s) found
-[27Nov2024 03:40:02.421] [main/WARN] [mixin/]: Reference map 'handcrafted-forge-1.20.1-forge-refmap.json' for handcrafted.mixins.json could not be read. If this is a development environment you can ignore this message
-[27Nov2024 03:40:02.442] [main/WARN] [mixin/]: Reference map 'coroutil.refmap.json' for coroutil.mixins.json could not be read. If this is a development environment you can ignore this message
-[27Nov2024 03:40:02.485] [main/WARN] [mixin/]: Reference map 'Aquamirae.refmap.json' for aquamirae.mixins.json could not be read. If this is a development environment you can ignore this message
-[27Nov2024 03:40:03.949] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
-[27Nov2024 03:40:03.950] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/Screen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER)
-[27Nov2024 03:40:03.951] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.Screen was not found relics.mixins.json:ScreenMixin
-[27Nov2024 03:40:05.617] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
-[27Nov2024 03:40:11.628] [main/WARN] [mixin/]: Method overwrite conflict for setBlockState in the_bumblezone-common.mixins.json:blocks.FallingBlockEntityAccessor, previously written by com.github.alexmodguy.alexscaves.mixin.FallingBlockEntityMixin. Skipping method.
-[27Nov2024 03:40:16.338] [main/WARN] [mixin/]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=2 on refurbished_furniture.common.mixins.json:LevelChunkMixin::handler$zjm000$refurbishedFurniture$AfterRemoveBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[27Nov2024 03:40:17.565] [main/WARN] [mixin/]: Mixin alexscaves.mixins.json:SwampHutPieceMixin has multiple constructors, (Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceType;IIIIIILnet/minecraft/core/Direction;)V was selected
+[02Dec2024 23:24:36.429] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[02Dec2024 23:24:36.433] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.4 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
+[02Dec2024 23:24:37.461] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[02Dec2024 23:24:37.522] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/cordi3/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[02Dec2024 23:24:38.131] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/cordi3/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[02Dec2024 23:24:38.139] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/cordi3/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[02Dec2024 23:24:38.142] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/cordi3/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[02Dec2024 23:24:38.143] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/cordi3/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[02Dec2024 23:24:38.659] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: playeranimator. Using Mod File: /workspaces/cordi3/servidor_minecraft/mods/player-animation-lib-forge-1.0.2-rc1+1.20.jar
+[02Dec2024 23:24:38.660] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 10 dependencies adding them to mods collection
+[02Dec2024 23:24:42.594] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[02Dec2024 23:24:42.760] [main/ERROR] [mixin/]: Mixin config necronomicon.forge.mixins.json does not specify "minVersion" property
+[02Dec2024 23:24:42.823] [main/ERROR] [mixin/]: Mixin config furniture-common.mixins.json does not specify "minVersion" property
+[02Dec2024 23:24:42.923] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [de.maxhenkel.camera.MixinConnector]
+[02Dec2024 23:24:42.931] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[02Dec2024 23:24:42.966] [main/WARN] [mixin/]: Reference map 'graveyard-FORGE-forge-refmap.json' for graveyard-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[02Dec2024 23:24:43.168] [main/WARN] [mixin/]: Reference map 'mixins.call_of_yucutan.refmap.json' for mixins.call_of_yucutan.json could not be read. If this is a development environment you can ignore this message
+[02Dec2024 23:24:43.191] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 127 options available, 0 override(s) found
+[02Dec2024 23:24:43.208] [main/WARN] [mixin/]: Reference map 'handcrafted-forge-1.20.1-forge-refmap.json' for handcrafted.mixins.json could not be read. If this is a development environment you can ignore this message
+[02Dec2024 23:24:43.237] [main/WARN] [mixin/]: Reference map 'coroutil.refmap.json' for coroutil.mixins.json could not be read. If this is a development environment you can ignore this message
+[02Dec2024 23:24:43.278] [main/WARN] [mixin/]: Reference map 'Aquamirae.refmap.json' for aquamirae.mixins.json could not be read. If this is a development environment you can ignore this message
+[02Dec2024 23:24:44.948] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+[02Dec2024 23:24:44.949] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/Screen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER)
+[02Dec2024 23:24:44.950] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.Screen was not found relics.mixins.json:ScreenMixin
+[02Dec2024 23:24:46.575] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[02Dec2024 23:24:52.467] [main/WARN] [mixin/]: Method overwrite conflict for setBlockState in the_bumblezone-common.mixins.json:blocks.FallingBlockEntityAccessor, previously written by com.github.alexmodguy.alexscaves.mixin.FallingBlockEntityMixin. Skipping method.
+[02Dec2024 23:24:56.996] [main/WARN] [mixin/]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=2 on refurbished_furniture.common.mixins.json:LevelChunkMixin::handler$zjc000$refurbishedFurniture$AfterRemoveBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[02Dec2024 23:24:58.408] [main/WARN] [mixin/]: Mixin alexscaves.mixins.json:SwampHutPieceMixin has multiple constructors, (Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceType;IIIIIILnet/minecraft/core/Direction;)V was selected
 
-[27Nov2024 03:40:18.409] [modloading-worker-0/INFO] [Easy NPC/]: Initializing Easy NPC (Forge) ...
-[27Nov2024 03:40:18.410] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Debug Manager ...
-[27Nov2024 03:40:18.412] [modloading-worker-0/WARN] [Easy NPC/]: [Debug Manager] Detected debug log level for Easy NPC with ALL!
-[27Nov2024 03:40:18.412] [modloading-worker-0/WARN] [Easy NPC/]: [Debug Manager] Adjusting log level for Easy NPC from ALL to INFO, for performance reasons!
-[27Nov2024 03:40:18.416] [modloading-worker-0/INFO] [Easy NPC/]: [Debug Manager] Add new logger config for Easy NPC with level INFO ...
-[27Nov2024 03:40:18.426] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Constants ...
-[27Nov2024 03:40:18.444] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Command Argument Types ...
-[27Nov2024 03:40:18.474] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Entities Types ...
-[27Nov2024 03:40:18.489] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Blocks ...
-[27Nov2024 03:40:18.503] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Blocks Entity Types ...
-[27Nov2024 03:40:18.503] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Items ...
-[27Nov2024 03:40:18.527] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Menu Handler ...
-[27Nov2024 03:40:18.543] [modloading-worker-0/INFO] [Easy NPC/]: Registering Easy NPC common config ...
-[27Nov2024 03:40:18.553] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Menu Types ...
-[27Nov2024 03:40:18.564] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Network Handler ...
-[27Nov2024 03:40:18.587] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Client Network Message Handler ...
-[27Nov2024 03:40:18.638] [modloading-worker-0/INFO] [Easy NPC/]: Registering Easy NPC client config ...
-[27Nov2024 03:40:18.682] [modloading-worker-0/INFO] [necronomicon/]: File exists, reading config for elocindev.animation_overhaul.config.AnimationsConfig.
-[27Nov2024 03:40:18.690] [modloading-worker-0/INFO] [necronomicon/]: Config for elocindev.animation_overhaul.config.AnimationsConfig read successfully.
-[27Nov2024 03:40:18.712] [modloading-worker-0/INFO] [necronomicon/]: File exists, reading config for elocindev.animation_overhaul.config.PlayerConfig.
-[27Nov2024 03:40:18.723] [modloading-worker-0/INFO] [necronomicon/]: Config for elocindev.animation_overhaul.config.PlayerConfig read successfully.
-[27Nov2024 03:40:18.726] [modloading-worker-0/INFO] [animation_overhaul/]: Animation Overhaul's Config initialized
-[27Nov2024 03:40:19.207] [modloading-worker-0/INFO] [graveyard/]: Registered JSON trade offer adapter.
-[27Nov2024 03:40:19.277] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
-[27Nov2024 03:40:19.296] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
-[27Nov2024 03:40:19.609] [modloading-worker-0/ERROR] [net.minecraftforge.eventbus.EventSubclassTransformer/EVENTBUS]: Could not find parent net/minecraft/client/renderer/entity/layers/RenderLayer for class com/obscuria/obscureapi/client/renderer/PatreonLayer in classloader cpw.mods.modlauncher.TransformingClassLoader@36790bec on thread Thread[#28,modloading-worker-0,5,main]
-[27Nov2024 03:40:19.610] [modloading-worker-0/ERROR] [net.minecraftforge.eventbus.EventSubclassTransformer/EVENTBUS]: An error occurred building event handler
+[02Dec2024 23:24:59.203] [modloading-worker-0/INFO] [Easy NPC/]: Initializing Easy NPC (Forge) ...
+[02Dec2024 23:24:59.210] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Debug Manager ...
+[02Dec2024 23:24:59.212] [modloading-worker-0/WARN] [Easy NPC/]: [Debug Manager] Detected debug log level for Easy NPC with ALL!
+[02Dec2024 23:24:59.213] [modloading-worker-0/WARN] [Easy NPC/]: [Debug Manager] Adjusting log level for Easy NPC from ALL to INFO, for performance reasons!
+[02Dec2024 23:24:59.213] [modloading-worker-0/INFO] [Easy NPC/]: [Debug Manager] Add new logger config for Easy NPC with level INFO ...
+[02Dec2024 23:24:59.215] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Constants ...
+[02Dec2024 23:24:59.223] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Command Argument Types ...
+[02Dec2024 23:24:59.255] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Entities Types ...
+[02Dec2024 23:24:59.264] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Blocks ...
+[02Dec2024 23:24:59.275] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Blocks Entity Types ...
+[02Dec2024 23:24:59.280] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Items ...
+[02Dec2024 23:24:59.300] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Menu Handler ...
+[02Dec2024 23:24:59.334] [modloading-worker-0/INFO] [Easy NPC/]: Registering Easy NPC common config ...
+[02Dec2024 23:24:59.344] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Menu Types ...
+[02Dec2024 23:24:59.365] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Network Handler ...
+[02Dec2024 23:24:59.373] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Client Network Message Handler ...
+[02Dec2024 23:24:59.430] [modloading-worker-0/INFO] [Easy NPC/]: Registering Easy NPC client config ...
+[02Dec2024 23:24:59.476] [modloading-worker-0/INFO] [necronomicon/]: File exists, reading config for elocindev.animation_overhaul.config.AnimationsConfig.
+[02Dec2024 23:24:59.478] [modloading-worker-0/INFO] [necronomicon/]: Config for elocindev.animation_overhaul.config.AnimationsConfig read successfully.
+[02Dec2024 23:24:59.505] [modloading-worker-0/INFO] [necronomicon/]: File exists, reading config for elocindev.animation_overhaul.config.PlayerConfig.
+[02Dec2024 23:24:59.506] [modloading-worker-0/INFO] [necronomicon/]: Config for elocindev.animation_overhaul.config.PlayerConfig read successfully.
+[02Dec2024 23:24:59.513] [modloading-worker-0/INFO] [animation_overhaul/]: Animation Overhaul's Config initialized
+[02Dec2024 23:24:59.989] [modloading-worker-0/INFO] [graveyard/]: Registered JSON trade offer adapter.
+[02Dec2024 23:25:00.053] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
+[02Dec2024 23:25:00.080] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
+[02Dec2024 23:25:00.289] [modloading-worker-0/ERROR] [net.minecraftforge.eventbus.EventSubclassTransformer/EVENTBUS]: Could not find parent net/minecraft/client/renderer/entity/layers/RenderLayer for class com/obscuria/obscureapi/client/renderer/PatreonLayer in classloader cpw.mods.modlauncher.TransformingClassLoader@2d2b6960 on thread Thread[#28,modloading-worker-0,5,main]
+[02Dec2024 23:25:00.293] [modloading-worker-0/ERROR] [net.minecraftforge.eventbus.EventSubclassTransformer/EVENTBUS]: An error occurred building event handler
 java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.layers.RenderLayer
 	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:141) ~[securejarhandler-2.1.10.jar:?]
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
@@ -97,148 +97,151 @@ java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.layers.Re
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-[27Nov2024 03:40:19.618] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class com/obscuria/obscureapi/client/renderer/PatreonLayer for invalid dist DEDICATED_SERVER
-[27Nov2024 03:40:20.164] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
-[27Nov2024 03:40:20.172] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
-[27Nov2024 03:40:20.178] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
-[27Nov2024 03:40:20.187] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
-[27Nov2024 03:40:20.188] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
-[27Nov2024 03:40:20.192] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
-[27Nov2024 03:40:20.194] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
-[27Nov2024 03:40:20.195] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
-[27Nov2024 03:40:21.297] [modloading-worker-0/INFO] [coroutil/]: forge loader environment detected
-[27Nov2024 03:40:21.335] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[27Nov2024 03:40:21.335] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[27Nov2024 03:40:21.435] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Successfully initialized!
-[27Nov2024 03:40:21.436] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Server-side libs ready to use!
-[27Nov2024 03:40:24.637] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
-[27Nov2024 03:40:25.319] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: The object net.minecraft.sounds.SoundEvent@6166edcf has been registered twice for the same name treechop:chop_wood.
-[27Nov2024 03:40:38.298] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:wandering_winemaker] was not realized!
-[27Nov2024 03:40:38.299] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / bakery:wandering_baker] was not realized!
-[27Nov2024 03:40:38.299] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:mule] was not realized!
-[27Nov2024 03:40:39.279] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:wandering_winemaker] was not realized!
-[27Nov2024 03:40:39.286] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / bakery:wandering_baker] was not realized!
-[27Nov2024 03:40:39.287] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:mule] was not realized!
-[27Nov2024 03:40:39.288] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:wandering_winemaker] was not realized!
-[27Nov2024 03:40:39.289] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / bakery:wandering_baker] was not realized!
-[27Nov2024 03:40:39.289] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:mule] was not realized!
-[27Nov2024 03:40:39.290] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:wandering_winemaker] was not realized!
-[27Nov2024 03:40:39.291] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / bakery:wandering_baker] was not realized!
-[27Nov2024 03:40:39.292] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:mule] was not realized!
-[27Nov2024 03:40:39.296] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:wandering_winemaker] was not realized!
-[27Nov2024 03:40:39.297] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:mule] was not realized!
-[27Nov2024 03:40:40.296] [main/WARN] [Easy NPC/]: [Custom Entity Data] Please define a custom index instead of using the auto-generated.
-[27Nov2024 03:40:40.308] [main/INFO] [Easy NPC/]: Register data serializers ...
-[27Nov2024 03:40:40.309] [main/INFO] [Easy NPC/]: - Registering Synched Attack Data for EasyNPCBaseEntity.
-[27Nov2024 03:40:40.311] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttackData
-[27Nov2024 03:40:40.315] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttackData
-[27Nov2024 03:40:40.316] [main/INFO] [Easy NPC/]: - Registering Synched Attribute Data for EasyNPCBaseEntity.
-[27Nov2024 03:40:40.317] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
-[27Nov2024 03:40:40.318] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
-[27Nov2024 03:40:40.318] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
-[27Nov2024 03:40:40.321] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
-[27Nov2024 03:40:40.322] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
-[27Nov2024 03:40:40.323] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
-[27Nov2024 03:40:40.324] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
-[27Nov2024 03:40:40.324] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
-[27Nov2024 03:40:40.337] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
-[27Nov2024 03:40:40.338] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
-[27Nov2024 03:40:40.338] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
-[27Nov2024 03:40:40.339] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
-[27Nov2024 03:40:40.339] [main/INFO] [Easy NPC/]: - Registering Synched Navigation Data for EasyNPCBaseEntity.
-[27Nov2024 03:40:40.339] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.NavigationData
-[27Nov2024 03:40:40.340] [main/INFO] [Easy NPC/]: - Registering Synched Owner Data for EasyNPCBaseEntity.
-[27Nov2024 03:40:40.340] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.OwnerData
-[27Nov2024 03:40:40.341] [main/INFO] [Easy NPC/]: - Registering Synched Profession Data for EasyNPCBaseEntity.
-[27Nov2024 03:40:40.341] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ProfessionData
-[27Nov2024 03:40:40.342] [main/INFO] [Easy NPC/]: - Registering Synched Render Data for EasyNPCBaseEntity.
-[27Nov2024 03:40:40.343] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.RenderData
-[27Nov2024 03:40:40.343] [main/INFO] [Easy NPC/]: - Registering Synched Skin Data for EasyNPCBaseEntity.
-[27Nov2024 03:40:40.344] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.SkinData
-[27Nov2024 03:40:40.344] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.SkinData
-[27Nov2024 03:40:40.345] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.SkinData
-[27Nov2024 03:40:40.345] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.SkinData
-[27Nov2024 03:40:40.345] [main/INFO] [Easy NPC/]: - Registering Synched Sound Data for EasyNPCBaseEntity.
-[27Nov2024 03:40:40.346] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.SoundData
-[27Nov2024 03:40:40.346] [main/INFO] [Easy NPC/]: - Registering Synched Trading Data for EasyNPCBaseEntity.
-[27Nov2024 03:40:40.348] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.TradingData
-[27Nov2024 03:40:40.348] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.TradingData
-[27Nov2024 03:40:40.349] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.TradingData
-[27Nov2024 03:40:40.349] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.TradingData
-[27Nov2024 03:40:40.349] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.TradingData
-[27Nov2024 03:40:40.350] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.TradingData
-[27Nov2024 03:40:40.350] [main/INFO] [Easy NPC/]: - Registering Synched Variant Data for EasyNPCBaseEntity.
-[27Nov2024 03:40:40.357] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.VariantData
-[27Nov2024 03:40:40.410] [main/INFO] [Easy NPC/]: Register model data serializers for ...
-[27Nov2024 03:40:40.413] [main/INFO] [Easy NPC/]: - Registering Synched Model Data for EasyNPCBaseModelEntity.
-[27Nov2024 03:40:40.414] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
-[27Nov2024 03:40:40.414] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
-[27Nov2024 03:40:40.415] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
-[27Nov2024 03:40:40.419] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
-[27Nov2024 03:40:40.420] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
-[27Nov2024 03:40:40.420] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
-[27Nov2024 03:40:40.421] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
-[27Nov2024 03:40:40.421] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
-[27Nov2024 03:40:40.421] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
-[27Nov2024 03:40:40.422] [main/INFO] [Easy NPC/]: - Registering Synched Model Position Data for EasyNPCBaseModelEntity.
-[27Nov2024 03:40:40.422] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelPositionData
-[27Nov2024 03:40:40.423] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelPositionData
-[27Nov2024 03:40:40.424] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelPositionData
-[27Nov2024 03:40:40.424] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelPositionData
-[27Nov2024 03:40:40.425] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelPositionData
-[27Nov2024 03:40:40.425] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelPositionData
-[27Nov2024 03:40:40.426] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelPositionData
-[27Nov2024 03:40:40.426] [main/INFO] [Easy NPC/]: - Registering Synched Model Rotation Data for EasyNPCBaseModelEntity.
-[27Nov2024 03:40:40.427] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
-[27Nov2024 03:40:40.427] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
-[27Nov2024 03:40:40.428] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
-[27Nov2024 03:40:40.428] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
-[27Nov2024 03:40:40.429] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
-[27Nov2024 03:40:40.436] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
-[27Nov2024 03:40:40.436] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
-[27Nov2024 03:40:40.438] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
-[27Nov2024 03:40:40.438] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
-[27Nov2024 03:40:40.439] [main/INFO] [Easy NPC/]: - Registering Synched Model Visibility Data for EasyNPCBaseModelEntity.
-[27Nov2024 03:40:40.439] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
-[27Nov2024 03:40:40.439] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
-[27Nov2024 03:40:40.440] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
-[27Nov2024 03:40:40.440] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
-[27Nov2024 03:40:40.441] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
-[27Nov2024 03:40:40.441] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
-[27Nov2024 03:40:40.446] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
-[27Nov2024 03:40:40.446] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
-[27Nov2024 03:40:40.447] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
-[27Nov2024 03:40:40.458] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
-[27Nov2024 03:40:40.459] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
-[27Nov2024 03:40:40.460] [main/INFO] [Easy NPC/]: - Registering Synched Scale Data for EasyNPCBaseModelEntity.
-[27Nov2024 03:40:40.461] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ScaleData
-[27Nov2024 03:40:40.461] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ScaleData
-[27Nov2024 03:40:40.462] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ScaleData
-[27Nov2024 03:40:40.543] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.github.alexmodguy.alexscaves.server.entity.living.TremorzillaEntity from class com.github.alexmodguy.alexscaves.server.entity.living.LicowitchEntity
-[27Nov2024 03:40:40.877] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Network Handler for net.minecraftforge.network.simple.SimpleChannel@53845923 with version 21 ...
-[27Nov2024 03:40:42.666] [modloading-worker-0/INFO] [necronomicon/]: Necronomicon Initialized
-[27Nov2024 03:40:42.668] [modloading-worker-0/INFO] [necronomicon/]: File exists, reading config for elocindev.necronomicon.NecronomiconConfig.
-[27Nov2024 03:40:42.669] [modloading-worker-0/INFO] [necronomicon/]: Config for elocindev.necronomicon.NecronomiconConfig read successfully.
-[27Nov2024 03:40:42.674] [modloading-worker-0/INFO] [necronomicon/]: there is a brick about to fall through your roof at terminal velocity
-[27Nov2024 03:40:42.684] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [goblintraders] Starting version check at https://mrcrayfish.com/modupdatejson?id=goblintraders
-[27Nov2024 03:40:43.078] [main/INFO] [journeymap/]: Initializing Packet Registries
-[27Nov2024 03:40:43.094] [main/INFO] [ribbits/]: Registering Ribbit umbrella types...
-[27Nov2024 03:40:43.095] [main/INFO] [ribbits/]: Registering Ribbit professions...
-[27Nov2024 03:40:43.096] [main/INFO] [ribbits/]: Registering Ribbit instruments...
-[27Nov2024 03:40:43.097] [main/INFO] [ribbits/]: Registering Ribbit data serializers...
-[27Nov2024 03:40:43.133] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[27Nov2024 03:40:43.134] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
-[27Nov2024 03:40:43.134] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
-[27Nov2024 03:40:43.135] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
-[27Nov2024 03:40:43.135] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
-[27Nov2024 03:40:43.135] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
-[27Nov2024 03:40:43.136] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
-[27Nov2024 03:40:43.373] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [goblintraders] Found status: BETA Current: 1.9.3 Target: 1.9.3
-[27Nov2024 03:40:43.375] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwwindows] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/window.json
-[27Nov2024 03:40:43.427] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwwindows] Found status: UP_TO_DATE Current: 2.3.0 Target: null
-[27Nov2024 03:40:43.427] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [obscure_api] Starting version check at https://raw.githubusercontent.com/ObscuriaLithium/Home/main/obscure_api/versions.json
-[27Nov2024 03:40:43.430] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key refurbished_furniture:lock_yaw for refurbished_furniture:seat
-[27Nov2024 03:40:43.438] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[02Dec2024 23:25:00.307] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class com/obscuria/obscureapi/client/renderer/PatreonLayer for invalid dist DEDICATED_SERVER
+[02Dec2024 23:25:00.934] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[02Dec2024 23:25:00.936] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[02Dec2024 23:25:00.941] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[02Dec2024 23:25:00.942] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[02Dec2024 23:25:00.947] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[02Dec2024 23:25:00.949] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[02Dec2024 23:25:00.954] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
+[02Dec2024 23:25:00.955] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
+[02Dec2024 23:25:01.788] [modloading-worker-0/INFO] [coroutil/]: forge loader environment detected
+[02Dec2024 23:25:01.859] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[02Dec2024 23:25:01.859] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[02Dec2024 23:25:01.939] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Successfully initialized!
+[02Dec2024 23:25:01.945] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Server-side libs ready to use!
+[02Dec2024 23:25:05.123] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
+[02Dec2024 23:25:05.985] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: The object net.minecraft.sounds.SoundEvent@310bf0ed has been registered twice for the same name treechop:chop_wood.
+[02Dec2024 23:25:19.875] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:wandering_winemaker] was not realized!
+[02Dec2024 23:25:19.876] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:mule] was not realized!
+[02Dec2024 23:25:19.877] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / bakery:wandering_baker] was not realized!
+[02Dec2024 23:25:20.435] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:wandering_winemaker] was not realized!
+[02Dec2024 23:25:20.435] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:mule] was not realized!
+[02Dec2024 23:25:20.436] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / bakery:wandering_baker] was not realized!
+[02Dec2024 23:25:20.437] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:wandering_winemaker] was not realized!
+[02Dec2024 23:25:20.437] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:mule] was not realized!
+[02Dec2024 23:25:20.438] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / bakery:wandering_baker] was not realized!
+[02Dec2024 23:25:20.439] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:wandering_winemaker] was not realized!
+[02Dec2024 23:25:20.439] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:mule] was not realized!
+[02Dec2024 23:25:20.440] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / bakery:wandering_baker] was not realized!
+[02Dec2024 23:25:20.442] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:wandering_winemaker] was not realized!
+[02Dec2024 23:25:20.443] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:mule] was not realized!
+[02Dec2024 23:25:21.836] [main/WARN] [Easy NPC/]: [Custom Entity Data] Please define a custom index instead of using the auto-generated.
+[02Dec2024 23:25:21.851] [main/INFO] [Easy NPC/]: Register data serializers ...
+[02Dec2024 23:25:21.852] [main/INFO] [Easy NPC/]: - Registering Synched Attack Data for EasyNPCBaseEntity.
+[02Dec2024 23:25:21.853] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttackData
+[02Dec2024 23:25:21.854] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttackData
+[02Dec2024 23:25:21.855] [main/INFO] [Easy NPC/]: - Registering Synched Attribute Data for EasyNPCBaseEntity.
+[02Dec2024 23:25:21.855] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[02Dec2024 23:25:21.856] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[02Dec2024 23:25:21.857] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[02Dec2024 23:25:21.858] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[02Dec2024 23:25:21.859] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[02Dec2024 23:25:21.859] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[02Dec2024 23:25:21.860] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[02Dec2024 23:25:21.861] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[02Dec2024 23:25:21.862] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[02Dec2024 23:25:21.863] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[02Dec2024 23:25:21.863] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[02Dec2024 23:25:21.864] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[02Dec2024 23:25:21.865] [main/INFO] [Easy NPC/]: - Registering Synched Navigation Data for EasyNPCBaseEntity.
+[02Dec2024 23:25:21.865] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.NavigationData
+[02Dec2024 23:25:21.866] [main/INFO] [Easy NPC/]: - Registering Synched Owner Data for EasyNPCBaseEntity.
+[02Dec2024 23:25:21.867] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.OwnerData
+[02Dec2024 23:25:21.867] [main/INFO] [Easy NPC/]: - Registering Synched Profession Data for EasyNPCBaseEntity.
+[02Dec2024 23:25:21.869] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ProfessionData
+[02Dec2024 23:25:21.869] [main/INFO] [Easy NPC/]: - Registering Synched Render Data for EasyNPCBaseEntity.
+[02Dec2024 23:25:21.870] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.RenderData
+[02Dec2024 23:25:21.871] [main/INFO] [Easy NPC/]: - Registering Synched Skin Data for EasyNPCBaseEntity.
+[02Dec2024 23:25:21.872] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.SkinData
+[02Dec2024 23:25:21.873] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.SkinData
+[02Dec2024 23:25:21.873] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.SkinData
+[02Dec2024 23:25:21.874] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.SkinData
+[02Dec2024 23:25:21.875] [main/INFO] [Easy NPC/]: - Registering Synched Sound Data for EasyNPCBaseEntity.
+[02Dec2024 23:25:21.876] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.SoundData
+[02Dec2024 23:25:21.877] [main/INFO] [Easy NPC/]: - Registering Synched Trading Data for EasyNPCBaseEntity.
+[02Dec2024 23:25:21.878] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.TradingData
+[02Dec2024 23:25:21.878] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.TradingData
+[02Dec2024 23:25:21.879] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.TradingData
+[02Dec2024 23:25:21.880] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.TradingData
+[02Dec2024 23:25:21.881] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.TradingData
+[02Dec2024 23:25:21.882] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.TradingData
+[02Dec2024 23:25:21.882] [main/INFO] [Easy NPC/]: - Registering Synched Variant Data for EasyNPCBaseEntity.
+[02Dec2024 23:25:21.883] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.VariantData
+[02Dec2024 23:25:21.948] [main/INFO] [Easy NPC/]: Register model data serializers for ...
+[02Dec2024 23:25:21.949] [main/INFO] [Easy NPC/]: - Registering Synched Model Data for EasyNPCBaseModelEntity.
+[02Dec2024 23:25:21.949] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[02Dec2024 23:25:21.950] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[02Dec2024 23:25:21.950] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[02Dec2024 23:25:21.951] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[02Dec2024 23:25:21.951] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[02Dec2024 23:25:21.951] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[02Dec2024 23:25:21.952] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[02Dec2024 23:25:21.952] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[02Dec2024 23:25:21.953] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[02Dec2024 23:25:21.953] [main/INFO] [Easy NPC/]: - Registering Synched Model Position Data for EasyNPCBaseModelEntity.
+[02Dec2024 23:25:21.953] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelPositionData
+[02Dec2024 23:25:21.954] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelPositionData
+[02Dec2024 23:25:21.954] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelPositionData
+[02Dec2024 23:25:21.955] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelPositionData
+[02Dec2024 23:25:21.955] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelPositionData
+[02Dec2024 23:25:21.956] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelPositionData
+[02Dec2024 23:25:21.956] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelPositionData
+[02Dec2024 23:25:21.956] [main/INFO] [Easy NPC/]: - Registering Synched Model Rotation Data for EasyNPCBaseModelEntity.
+[02Dec2024 23:25:21.957] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
+[02Dec2024 23:25:21.957] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
+[02Dec2024 23:25:21.958] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
+[02Dec2024 23:25:21.958] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
+[02Dec2024 23:25:21.959] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
+[02Dec2024 23:25:21.959] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
+[02Dec2024 23:25:21.959] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
+[02Dec2024 23:25:21.960] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
+[02Dec2024 23:25:21.960] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
+[02Dec2024 23:25:21.961] [main/INFO] [Easy NPC/]: - Registering Synched Model Visibility Data for EasyNPCBaseModelEntity.
+[02Dec2024 23:25:21.961] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
+[02Dec2024 23:25:21.962] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
+[02Dec2024 23:25:21.962] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
+[02Dec2024 23:25:21.963] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
+[02Dec2024 23:25:21.963] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
+[02Dec2024 23:25:21.964] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
+[02Dec2024 23:25:21.964] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
+[02Dec2024 23:25:21.965] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
+[02Dec2024 23:25:21.965] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
+[02Dec2024 23:25:21.966] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
+[02Dec2024 23:25:21.966] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
+[02Dec2024 23:25:21.967] [main/INFO] [Easy NPC/]: - Registering Synched Scale Data for EasyNPCBaseModelEntity.
+[02Dec2024 23:25:21.967] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ScaleData
+[02Dec2024 23:25:21.968] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ScaleData
+[02Dec2024 23:25:21.968] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ScaleData
+[02Dec2024 23:25:22.100] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.github.alexmodguy.alexscaves.server.entity.living.TremorzillaEntity from class com.github.alexmodguy.alexscaves.server.entity.living.LicowitchEntity
+[02Dec2024 23:25:22.388] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Network Handler for net.minecraftforge.network.simple.SimpleChannel@4a905187 with version 21 ...
+[02Dec2024 23:25:24.030] [modloading-worker-0/INFO] [necronomicon/]: Necronomicon Initialized
+[02Dec2024 23:25:24.032] [modloading-worker-0/INFO] [necronomicon/]: File exists, reading config for elocindev.necronomicon.NecronomiconConfig.
+[02Dec2024 23:25:24.034] [modloading-worker-0/INFO] [necronomicon/]: Config for elocindev.necronomicon.NecronomiconConfig read successfully.
+[02Dec2024 23:25:24.038] [modloading-worker-0/INFO] [necronomicon/]: there is a brick about to fall through your roof at terminal velocity
+[02Dec2024 23:25:24.140] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [goblintraders] Starting version check at https://mrcrayfish.com/modupdatejson?id=goblintraders
+[02Dec2024 23:25:24.488] [main/INFO] [journeymap/]: Initializing Packet Registries
+[02Dec2024 23:25:24.536] [main/INFO] [ribbits/]: Registering Ribbit umbrella types...
+[02Dec2024 23:25:24.536] [main/INFO] [ribbits/]: Registering Ribbit professions...
+[02Dec2024 23:25:24.536] [main/INFO] [ribbits/]: Registering Ribbit instruments...
+[02Dec2024 23:25:24.538] [main/INFO] [ribbits/]: Registering Ribbit data serializers...
+[02Dec2024 23:25:24.555] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[02Dec2024 23:25:24.556] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[02Dec2024 23:25:24.556] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
+[02Dec2024 23:25:24.557] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
+[02Dec2024 23:25:24.557] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
+[02Dec2024 23:25:24.558] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
+[02Dec2024 23:25:24.558] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
+[02Dec2024 23:25:24.828] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key refurbished_furniture:lock_yaw for refurbished_furniture:seat
+[02Dec2024 23:25:24.909] [modloading-worker-0/INFO] [io.redspace.ironsspellbooks.IronsSpellbooks/]: Got IMC []
+[02Dec2024 23:25:24.925] [modloading-worker-0/INFO] [net.xalcon.torchmaster.Torchmaster/]: Applying mega torch entity block list overrides...
+[02Dec2024 23:25:24.926] [modloading-worker-0/INFO] [net.xalcon.torchmaster.Torchmaster/]: Applying dread lamp entity block list overrides...
+[02Dec2024 23:25:24.993] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [goblintraders] Found status: BETA Current: 1.9.3 Target: 1.9.3
+[02Dec2024 23:25:24.994] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwwindows] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/window.json
+[02Dec2024 23:25:25.033] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwwindows] Found status: UP_TO_DATE Current: 2.3.0 Target: null
+[02Dec2024 23:25:25.034] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [obscure_api] Starting version check at https://raw.githubusercontent.com/ObscuriaLithium/Home/main/obscure_api/versions.json
+[02Dec2024 23:25:25.049] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER at line 1 column 4 path $
 	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
@@ -253,25 +256,22 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER
 	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
 	... 6 more
-[27Nov2024 03:40:43.440] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
-[27Nov2024 03:40:43.491] [modloading-worker-0/INFO] [io.redspace.ironsspellbooks.IronsSpellbooks/]: Got IMC []
-[27Nov2024 03:40:43.507] [modloading-worker-0/INFO] [net.xalcon.torchmaster.Torchmaster/]: Applying mega torch entity block list overrides...
-[27Nov2024 03:40:43.507] [modloading-worker-0/INFO] [net.xalcon.torchmaster.Torchmaster/]: Applying dread lamp entity block list overrides...
-[27Nov2024 03:40:43.558] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: OUTDATED Current: 5.10.1 Target: 5.10.3
-[27Nov2024 03:40:43.558] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[27Nov2024 03:40:43.723] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.3.12
-[27Nov2024 03:40:43.723] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Starting version check at https://update.maxhenkel.de/forge/gravestone
-[27Nov2024 03:40:44.234] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Found status: OUTDATED Current: 1.20.1-1.0.21 Target: 1.20.1-1.0.23
-[27Nov2024 03:40:44.236] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [camera] Starting version check at https://update.maxhenkel.de/forge/camera
-[27Nov2024 03:40:44.338] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [camera] Found status: OUTDATED Current: 1.20.1-1.0.14 Target: 1.20.1-1.0.19
-[27Nov2024 03:40:44.338] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfurnitures] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/furniture.json
-[27Nov2024 03:40:44.349] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfurnitures] Found status: UP_TO_DATE Current: 3.3.0 Target: null
-[27Nov2024 03:40:44.349] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [refurbished_furniture] Starting version check at https://mrcrayfish.com/api/mod_update/forge/refurbished_furniture
-[27Nov2024 03:40:44.522] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [refurbished_furniture] Found status: BETA_OUTDATED Current: 1.0.5 Target: 1.0.8
-[27Nov2024 03:40:44.522] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
-[27Nov2024 03:40:44.877] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Found status: BETA_OUTDATED Current: 0.7.6 Target: 0.7.12
-[27Nov2024 03:40:44.877] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aquamirae] Starting version check at https://raw.githubusercontent.com/ObscuriaLithium/Home/main/aquamirae/versions.json
-[27Nov2024 03:40:44.890] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[02Dec2024 23:25:25.050] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[02Dec2024 23:25:25.202] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: OUTDATED Current: 5.10.1 Target: 5.10.3
+[02Dec2024 23:25:25.203] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[02Dec2024 23:25:25.509] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.3.12
+[02Dec2024 23:25:25.510] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Starting version check at https://update.maxhenkel.de/forge/gravestone
+[02Dec2024 23:25:26.045] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Found status: OUTDATED Current: 1.20.1-1.0.21 Target: 1.20.1-1.0.23
+[02Dec2024 23:25:26.046] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [camera] Starting version check at https://update.maxhenkel.de/forge/camera
+[02Dec2024 23:25:26.148] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [camera] Found status: OUTDATED Current: 1.20.1-1.0.14 Target: 1.20.1-1.0.19
+[02Dec2024 23:25:26.148] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfurnitures] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/furniture.json
+[02Dec2024 23:25:26.159] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfurnitures] Found status: UP_TO_DATE Current: 3.3.0 Target: null
+[02Dec2024 23:25:26.159] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [refurbished_furniture] Starting version check at https://mrcrayfish.com/api/mod_update/forge/refurbished_furniture
+[02Dec2024 23:25:26.339] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [refurbished_furniture] Found status: BETA_OUTDATED Current: 1.0.5 Target: 1.0.8
+[02Dec2024 23:25:26.340] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
+[02Dec2024 23:25:26.698] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Found status: BETA_OUTDATED Current: 0.7.6 Target: 0.7.12
+[02Dec2024 23:25:26.699] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aquamirae] Starting version check at https://raw.githubusercontent.com/ObscuriaLithium/Home/main/aquamirae/versions.json
+[02Dec2024 23:25:26.712] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER at line 1 column 4 path $
 	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
@@ -286,11 +286,1039 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER
 	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
 	... 6 more
-[27Nov2024 03:40:53.381] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[27Nov2024 03:41:01.718] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/cordi3/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23253!/assets/.mcassetsroot' uses unexpected schema
-[27Nov2024 03:41:01.719] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/cordi3/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23253!/data/.mcassetsroot' uses unexpected schema
-[27Nov2024 03:41:06.449] [main/INFO] [Easy NPC/]: 🗣 Register Easy NPC /easy_npc commands for Easy NPC ...
-[27Nov2024 03:41:07.195] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag forge:grapes as it is missing following references: minecraft:red_grape (from letsdo-vinery-forge-1.4.28.jar), 
+[02Dec2024 23:25:36.239] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[02Dec2024 23:25:36.652] [main/WARN] [net.minecraftforge.common.ForgeHooks/WP]: The following mods have version differences that were not resolved:
+cataclysm (version 2.27 -> MISSING)
+e4mc_minecraft (version 5.2.1 -> MISSING)
+forge (version 47.3.12 -> 47.3.7)
+lionfishapi (version 2.4-Fix -> 1.9)
+Things may not work well.
+[02Dec2024 23:25:37.119] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:block
+	cataclysm:abyssal_egg: 3223
+	cataclysm:altar_of_abyss: 3210
+	cataclysm:altar_of_amethyst: 3209
+	cataclysm:altar_of_fire: 3207
+	cataclysm:altar_of_void: 3208
+	cataclysm:ancient_metal_block: 3182
+	cataclysm:aptrgangr_head: 3219
+	cataclysm:aptrgangr_wall_head: 3220
+	cataclysm:black_steel_block: 3237
+	cataclysm:black_steel_fence: 3238
+	cataclysm:black_steel_wall: 3239
+	cataclysm:blackstone_pillar: 3244
+	cataclysm:chiseled_end_stone_bricks: 3187
+	cataclysm:chiseled_obsidian_bricks: 3196
+	cataclysm:chiseled_purpur_block: 3193
+	cataclysm:chiseled_stone_brick_pillar: 3231
+	cataclysm:chorus_fence: 3228
+	cataclysm:chorus_planks: 3225
+	cataclysm:chorus_slab: 3226
+	cataclysm:chorus_stairs: 3227
+	cataclysm:chorus_stem: 3224
+	cataclysm:cursed_tombstone: 3211
+	cataclysm:cursium_block: 3183
+	cataclysm:door_of_seal: 3215
+	cataclysm:door_of_seal_part: 3216
+	cataclysm:draugr_head: 3221
+	cataclysm:draugr_wall_head: 3222
+	cataclysm:dungeon_block: 3212
+	cataclysm:emp: 3213
+	cataclysm:end_stone_pillar: 3192
+	cataclysm:end_stone_teleport_trap_bricks: 3202
+	cataclysm:enderite_block: 3180
+	cataclysm:frosted_stone_brick_slab: 3234
+	cataclysm:frosted_stone_brick_stairs: 3235
+	cataclysm:frosted_stone_brick_wall: 3236
+	cataclysm:frosted_stone_bricks: 3233
+	cataclysm:ignitium_block: 3181
+	cataclysm:kobolediator_skull: 3217
+	cataclysm:kobolediator_wall_skull: 3218
+	cataclysm:mechanical_fusion_anvil: 3214
+	cataclysm:melting_netherrack: 3246
+	cataclysm:obsidian_brick_slab: 3197
+	cataclysm:obsidian_brick_stairs: 3198
+	cataclysm:obsidian_brick_wall: 3199
+	cataclysm:obsidian_bricks: 3194
+	cataclysm:obsidian_explosion_trap_bricks: 3203
+	cataclysm:pointed_icicle: 3245
+	cataclysm:polished_end_stone: 3184
+	cataclysm:polished_end_stone_slab: 3185
+	cataclysm:polished_end_stone_stairs: 3186
+	cataclysm:polished_obsidian: 3195
+	cataclysm:polished_sandstone: 3243
+	cataclysm:purpur_void_rune_trap_block: 3201
+	cataclysm:purpur_wall: 3200
+	cataclysm:quartz_brick_wall: 3229
+	cataclysm:sandstone_falling_trap: 3206
+	cataclysm:sandstone_ignite_trap: 3205
+	cataclysm:sandstone_poison_dart_trap: 3204
+	cataclysm:stone_pillar: 3230
+	cataclysm:stone_tile_slab: 3240
+	cataclysm:stone_tile_stairs: 3241
+	cataclysm:stone_tile_wall: 3242
+	cataclysm:stone_tiles: 3232
+	cataclysm:void_crystal: 3190
+	cataclysm:void_infused_end_stone_bricks: 3188
+	cataclysm:void_lantern_block: 3191
+	cataclysm:void_stone: 3189
+	cataclysm:witherite_block: 3179
+
+[02Dec2024 23:25:37.124] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:entity_type
+	cataclysm:abyss_blast: 508
+	cataclysm:abyss_blast_portal: 523
+	cataclysm:abyss_mark: 481
+	cataclysm:abyss_mine: 474
+	cataclysm:abyss_orb: 515
+	cataclysm:abyss_portal: 522
+	cataclysm:amethyst_cluster_projectile: 529
+	cataclysm:amethyst_crab: 527
+	cataclysm:ancient_ancient_remnant: 530
+	cataclysm:ancient_desert_stele: 539
+	cataclysm:ancient_remnant: 531
+	cataclysm:aptrgangr: 544
+	cataclysm:ashen_breath: 505
+	cataclysm:axe_blade: 545
+	cataclysm:blazing_bone: 497
+	cataclysm:cm_falling_block: 500
+	cataclysm:coral_bardiche: 525
+	cataclysm:coral_golem: 483
+	cataclysm:coral_spear: 524
+	cataclysm:coralssus: 484
+	cataclysm:cursed_sandstorm: 538
+	cataclysm:death_laser_beam: 507
+	cataclysm:deepling: 476
+	cataclysm:deepling_angler: 478
+	cataclysm:deepling_brute: 477
+	cataclysm:deepling_priest: 479
+	cataclysm:deepling_warlock: 480
+	cataclysm:dimensional_rift: 526
+	cataclysm:draugr: 541
+	cataclysm:earthquake: 528
+	cataclysm:elite_draugr: 543
+	cataclysm:ender_golem: 466
+	cataclysm:ender_guardian: 467
+	cataclysm:ender_guardian_bullet: 472
+	cataclysm:endermaptera: 475
+	cataclysm:eye_of_dungeon: 517
+	cataclysm:flame_strike: 504
+	cataclysm:ignis: 471
+	cataclysm:ignis_abyss_fireball: 502
+	cataclysm:ignis_fireball: 501
+	cataclysm:ignited_berserker: 486
+	cataclysm:ignited_revenant: 485
+	cataclysm:kobolediator: 534
+	cataclysm:koboleton: 533
+	cataclysm:laser_beam: 511
+	cataclysm:lava_bomb: 469
+	cataclysm:lionfish: 482
+	cataclysm:lionfish_spike: 498
+	cataclysm:maledictus: 540
+	cataclysm:mini_abyss_blast: 509
+	cataclysm:modern_remnant: 532
+	cataclysm:nameless_sorcerer: 470
+	cataclysm:netherite_monstrosity: 468
+	cataclysm:phantom_arrow: 494
+	cataclysm:phantom_halberd: 495
+	cataclysm:poison_dart: 493
+	cataclysm:portal_abyss_blast: 510
+	cataclysm:royal_draugr: 542
+	cataclysm:sandstorm: 536
+	cataclysm:sandstorm_projectile: 537
+	cataclysm:screen_shake: 499
+	cataclysm:the_baby_leviathan: 491
+	cataclysm:the_harbinger: 487
+	cataclysm:the_leviathan: 490
+	cataclysm:the_leviathan_tongue: 519
+	cataclysm:the_prowler: 489
+	cataclysm:the_watcher: 488
+	cataclysm:tidal_hook: 521
+	cataclysm:tidal_tentacle: 520
+	cataclysm:void_howitzer: 516
+	cataclysm:void_rune: 473
+	cataclysm:void_scatter_arrow: 492
+	cataclysm:void_shard: 496
+	cataclysm:void_vortex: 518
+	cataclysm:wadjet: 535
+	cataclysm:wall_watcher: 506
+	cataclysm:wither_homing_missile: 513
+	cataclysm:wither_howitzer: 514
+	cataclysm:wither_missile: 512
+	cataclysm:wither_smoke_effect: 503
+
+[02Dec2024 23:25:37.130] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:item
+	cataclysm:abyss_eye: 4516
+	cataclysm:abyssal_egg: 4566
+	cataclysm:abyssal_sacrifice: 4484
+	cataclysm:altar_of_abyss: 4561
+	cataclysm:altar_of_amethyst: 4560
+	cataclysm:altar_of_fire: 4558
+	cataclysm:altar_of_void: 4559
+	cataclysm:amethyst_crab_meat: 4520
+	cataclysm:amethyst_crab_shell: 4522
+	cataclysm:amethyst_crab_spawn_egg: 4547
+	cataclysm:ancient_metal_block: 4382
+	cataclysm:ancient_metal_ingot: 4432
+	cataclysm:ancient_metal_nugget: 4433
+	cataclysm:ancient_remnant_spawn_egg: 4551
+	cataclysm:ancient_spear: 4472
+	cataclysm:aptrgangr_head: 4486
+	cataclysm:aptrgangr_spawn_egg: 4554
+	cataclysm:athame: 4443
+	cataclysm:black_steel_axe: 4448
+	cataclysm:black_steel_block: 4426
+	cataclysm:black_steel_fence: 4427
+	cataclysm:black_steel_hoe: 4449
+	cataclysm:black_steel_ingot: 4434
+	cataclysm:black_steel_nugget: 4435
+	cataclysm:black_steel_pickaxe: 4447
+	cataclysm:black_steel_shovel: 4446
+	cataclysm:black_steel_sword: 4445
+	cataclysm:black_steel_targe: 4450
+	cataclysm:black_steel_wall: 4428
+	cataclysm:blackstone_pillar: 4421
+	cataclysm:blazing_bone: 4477
+	cataclysm:blazing_grips: 4456
+	cataclysm:blessed_amethyst_crab_meat: 4521
+	cataclysm:bloom_stone_pauldrons: 4502
+	cataclysm:bone_reptile_chestplate: 4490
+	cataclysm:bone_reptile_helmet: 4489
+	cataclysm:bulwark_of_the_flame: 4451
+	cataclysm:burning_ashes: 4503
+	cataclysm:chain_of_soul_binding: 4440
+	cataclysm:chiseled_end_stone_bricks: 4389
+	cataclysm:chiseled_obsidian_bricks: 4397
+	cataclysm:chiseled_purpur_block: 4401
+	cataclysm:chiseled_stone_brick_pillar: 4416
+	cataclysm:chorus_fence: 4413
+	cataclysm:chorus_planks: 4410
+	cataclysm:chorus_slab: 4411
+	cataclysm:chorus_stairs: 4412
+	cataclysm:chorus_stem: 4409
+	cataclysm:coral_bardiche: 4442
+	cataclysm:coral_chunk: 4483
+	cataclysm:coral_golem_spawn_egg: 4545
+	cataclysm:coral_spear: 4441
+	cataclysm:coralssus_spawn_egg: 4546
+	cataclysm:crystallized_coral: 4482
+	cataclysm:crystallized_coral_fragments: 4481
+	cataclysm:cursed_bow: 4457
+	cataclysm:cursed_eye: 4518
+	cataclysm:cursed_tombstone: 4562
+	cataclysm:cursium_block: 4383
+	cataclysm:cursium_boots: 4499
+	cataclysm:cursium_chestplate: 4497
+	cataclysm:cursium_helmet: 4496
+	cataclysm:cursium_ingot: 4437
+	cataclysm:cursium_leggings: 4498
+	cataclysm:cursium_upgrade_smithing_template: 4439
+	cataclysm:deepling_angler_spawn_egg: 4541
+	cataclysm:deepling_brute_spawn_egg: 4540
+	cataclysm:deepling_priest_spawn_egg: 4542
+	cataclysm:deepling_spawn_egg: 4539
+	cataclysm:deepling_warlock_spawn_egg: 4543
+	cataclysm:desert_eye: 4517
+	cataclysm:door_of_seal: 4565
+	cataclysm:draugr_head: 4487
+	cataclysm:draugr_spawn_egg: 4557
+	cataclysm:dungeon_block: 4384
+	cataclysm:dying_ember: 4504
+	cataclysm:elite_draugr_spawn_egg: 4555
+	cataclysm:emp: 4563
+	cataclysm:end_stone_pillar: 4390
+	cataclysm:end_stone_teleport_trap_bricks: 4404
+	cataclysm:ender_golem_spawn_egg: 4526
+	cataclysm:ender_guardian_spawn_egg: 4529
+	cataclysm:enderite_block: 4379
+	cataclysm:enderite_ingot: 4431
+	cataclysm:endermaptera_spawn_egg: 4530
+	cataclysm:final_fractal: 4468
+	cataclysm:flame_eye: 4513
+	cataclysm:frosted_stone_brick_slab: 4423
+	cataclysm:frosted_stone_brick_stairs: 4424
+	cataclysm:frosted_stone_brick_wall: 4425
+	cataclysm:frosted_stone_bricks: 4422
+	cataclysm:gauntlet_of_bulwark: 4453
+	cataclysm:gauntlet_of_guard: 4452
+	cataclysm:gauntlet_of_maelstrom: 4454
+	cataclysm:ignis_spawn_egg: 4531
+	cataclysm:ignited_berserker_spawn_egg: 4533
+	cataclysm:ignited_revenant_spawn_egg: 4532
+	cataclysm:ignitium_block: 4381
+	cataclysm:ignitium_boots: 4495
+	cataclysm:ignitium_chestplate: 4492
+	cataclysm:ignitium_elytra_chestplate: 4493
+	cataclysm:ignitium_helmet: 4491
+	cataclysm:ignitium_ingot: 4436
+	cataclysm:ignitium_leggings: 4494
+	cataclysm:ignitium_upgrade_smithing_template: 4438
+	cataclysm:infernal_forge: 4470
+	cataclysm:khopesh: 4444
+	cataclysm:kobolediator_skull: 4488
+	cataclysm:kobolediator_spawn_egg: 4549
+	cataclysm:koboleton_bone: 4478
+	cataclysm:koboleton_spawn_egg: 4548
+	cataclysm:laser_gatling: 4463
+	cataclysm:lionfish: 4519
+	cataclysm:lionfish_spawn_egg: 4544
+	cataclysm:lionfish_spike: 4523
+	cataclysm:maledictus_spawn_egg: 4553
+	cataclysm:meat_shredder: 4462
+	cataclysm:mech_eye: 4512
+	cataclysm:mechanical_fusion_anvil: 4564
+	cataclysm:modern_remnant_bucket: 4525
+	cataclysm:modern_remnant_spawn_egg: 4552
+	cataclysm:monstrous_eye: 4515
+	cataclysm:monstrous_helm: 4501
+	cataclysm:monstrous_horn: 4500
+	cataclysm:music_disc_ancient_remnant: 4510
+	cataclysm:music_disc_ender_guardian: 4506
+	cataclysm:music_disc_ignis: 4507
+	cataclysm:music_disc_maledictus: 4511
+	cataclysm:music_disc_netherite_monstrosity: 4505
+	cataclysm:music_disc_the_harbinger: 4508
+	cataclysm:music_disc_the_leviathan: 4509
+	cataclysm:nameless_sorcerer_spawn_egg: 4528
+	cataclysm:necklace_of_the_desert: 4485
+	cataclysm:netherite_monstrosity_spawn_egg: 4527
+	cataclysm:obsidian_brick_slab: 4398
+	cataclysm:obsidian_brick_stairs: 4399
+	cataclysm:obsidian_brick_wall: 4400
+	cataclysm:obsidian_bricks: 4395
+	cataclysm:obsidian_explosion_trap_bricks: 4405
+	cataclysm:pointed_icicle: 4429
+	cataclysm:polished_end_stone: 4386
+	cataclysm:polished_end_stone_slab: 4387
+	cataclysm:polished_end_stone_stairs: 4388
+	cataclysm:polished_obsidian: 4396
+	cataclysm:polished_sandstone: 4385
+	cataclysm:purpur_void_rune_trap_block: 4403
+	cataclysm:purpur_wall: 4402
+	cataclysm:quartz_brick_wall: 4414
+	cataclysm:remnant_skull: 4474
+	cataclysm:royal_draugr_spawn_egg: 4556
+	cataclysm:sandstone_falling_trap: 4408
+	cataclysm:sandstone_ignite_trap: 4407
+	cataclysm:sandstone_poison_dart_trap: 4406
+	cataclysm:sandstorm_in_a_bottle: 4471
+	cataclysm:soul_render: 4459
+	cataclysm:sticky_gloves: 4473
+	cataclysm:stone_pillar: 4415
+	cataclysm:stone_tile_slab: 4418
+	cataclysm:stone_tile_stairs: 4419
+	cataclysm:stone_tile_wall: 4420
+	cataclysm:stone_tiles: 4417
+	cataclysm:the_annihilator: 4460
+	cataclysm:the_baby_leviathan_bucket: 4524
+	cataclysm:the_baby_leviathan_spawn_egg: 4538
+	cataclysm:the_harbinger_spawn_egg: 4536
+	cataclysm:the_immolator: 4461
+	cataclysm:the_incinerator: 4455
+	cataclysm:the_leviathan_spawn_egg: 4537
+	cataclysm:the_prowler_spawn_egg: 4535
+	cataclysm:the_watcher_spawn_egg: 4534
+	cataclysm:tidal_claws: 4467
+	cataclysm:void_assault_shoulder_weapon: 4465
+	cataclysm:void_core: 4480
+	cataclysm:void_crystal: 4393
+	cataclysm:void_eye: 4514
+	cataclysm:void_forge: 4466
+	cataclysm:void_infused_end_stone_bricks: 4391
+	cataclysm:void_jaw: 4479
+	cataclysm:void_lantern_block: 4394
+	cataclysm:void_scatter_arrow: 4475
+	cataclysm:void_shard: 4476
+	cataclysm:void_stone: 4392
+	cataclysm:wadjet_spawn_egg: 4550
+	cataclysm:wither_assault_shoulder_weapon: 4464
+	cataclysm:witherite_block: 4380
+	cataclysm:witherite_ingot: 4430
+	cataclysm:wrath_of_the_desert: 4458
+	cataclysm:zweiender: 4469
+
+[02Dec2024 23:25:37.139] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:mob_effect
+	cataclysm:abyssal_burn: 84
+	cataclysm:abyssal_curse: 87
+	cataclysm:abyssal_fear: 86
+	cataclysm:blazing_brand: 82
+	cataclysm:blessing_of_amethyst: 88
+	cataclysm:bone_fracture: 85
+	cataclysm:curse_of_desert: 89
+	cataclysm:ghost_form: 90
+	cataclysm:ghost_sickness: 91
+	cataclysm:monstrous: 81
+	cataclysm:stun: 83
+
+[02Dec2024 23:25:37.140] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:sound_event
+	cataclysm:abyss_blast: 2536
+	cataclysm:abyss_blast_only_charge: 2537
+	cataclysm:abyss_blast_only_shoot: 2538
+	cataclysm:aptrgangr_death: 2631
+	cataclysm:aptrgangr_hurt: 2630
+	cataclysm:aptrgangr_idle: 2629
+	cataclysm:axe_swing: 2625
+	cataclysm:black_hole_closing: 2553
+	cataclysm:black_hole_loop: 2554
+	cataclysm:black_hole_opening: 2552
+	cataclysm:coral_golem_death: 2562
+	cataclysm:coral_golem_hurt: 2561
+	cataclysm:coralssus_ambient: 2603
+	cataclysm:coralssus_death: 2605
+	cataclysm:coralssus_hurt: 2604
+	cataclysm:coralssus_roar: 2606
+	cataclysm:crab_bite: 2565
+	cataclysm:crab_death: 2563
+	cataclysm:crab_hurt: 2564
+	cataclysm:death_laser: 2529
+	cataclysm:deepling_death: 2549
+	cataclysm:deepling_hurt: 2548
+	cataclysm:deepling_idle: 2547
+	cataclysm:deepling_light: 2551
+	cataclysm:deepling_swing: 2550
+	cataclysm:door_of_seal_open: 2632
+	cataclysm:draugr_death: 2628
+	cataclysm:draugr_hurt: 2627
+	cataclysm:draugr_idle: 2626
+	cataclysm:emp_activated: 2528
+	cataclysm:enderguardian_music: 2502
+	cataclysm:enderguardianattack: 2508
+	cataclysm:enderguardiandeath: 2487
+	cataclysm:enderguardianhurt: 2488
+	cataclysm:endermaptera_ambient: 2505
+	cataclysm:endermaptera_death: 2507
+	cataclysm:endermaptera_hurt: 2504
+	cataclysm:endermaptera_step: 2506
+	cataclysm:flame_burst: 2510
+	cataclysm:flame_trap: 2596
+	cataclysm:flamethrower: 2490
+	cataclysm:golemattack: 2489
+	cataclysm:golemdeath: 2485
+	cataclysm:golemhurt: 2486
+	cataclysm:hammertime: 2491
+	cataclysm:harbinger_charge: 2531
+	cataclysm:harbinger_charge_prepare: 2530
+	cataclysm:harbinger_deathlaser_prepare: 2532
+	cataclysm:harbinger_hurt: 2534
+	cataclysm:harbinger_idle: 2535
+	cataclysm:harbinger_laser: 2524
+	cataclysm:harbinger_mode_change: 2525
+	cataclysm:harbinger_music: 2533
+	cataclysm:harbinger_prepare: 2526
+	cataclysm:harbinger_stun: 2527
+	cataclysm:ignis_ambient: 2511
+	cataclysm:ignis_armor_break: 2516
+	cataclysm:ignis_death: 2518
+	cataclysm:ignis_earthquake: 2519
+	cataclysm:ignis_hurt: 2514
+	cataclysm:ignis_impact: 2515
+	cataclysm:ignis_music: 2503
+	cataclysm:ignis_poke: 2517
+	cataclysm:ignisshieldbreak: 2512
+	cataclysm:kobolediator_ambient: 2610
+	cataclysm:kobolediator_death: 2612
+	cataclysm:kobolediator_hurt: 2611
+	cataclysm:koboleton_ambient: 2592
+	cataclysm:koboleton_death: 2594
+	cataclysm:koboleton_hurt: 2593
+	cataclysm:koboleton_step: 2595
+	cataclysm:leviathan_bite: 2544
+	cataclysm:leviathan_defeat: 2539
+	cataclysm:leviathan_hurt: 2540
+	cataclysm:leviathan_idle: 2541
+	cataclysm:leviathan_music: 2555
+	cataclysm:leviathan_music_1: 2556
+	cataclysm:leviathan_music_2: 2557
+	cataclysm:leviathan_roar: 2542
+	cataclysm:leviathan_stun_roar: 2543
+	cataclysm:leviathan_tentacle_strike: 2545
+	cataclysm:maledictus_battle_cry: 2613
+	cataclysm:maledictus_bow_pull: 2617
+	cataclysm:maledictus_death: 2621
+	cataclysm:maledictus_hurt: 2614
+	cataclysm:maledictus_idle: 2618
+	cataclysm:maledictus_jump: 2619
+	cataclysm:maledictus_leap: 2615
+	cataclysm:maledictus_mace_swing: 2616
+	cataclysm:maledictus_music: 2622
+	cataclysm:maledictus_music_disc: 2623
+	cataclysm:maledictus_short_roar: 2620
+	cataclysm:maledictus_spear: 2624
+	cataclysm:modern_remnant_bite: 2582
+	cataclysm:modern_remnant_death: 2583
+	cataclysm:modern_remnant_fill_bucket: 2584
+	cataclysm:monstrosity_music: 2501
+	cataclysm:monstrosityawaken: 2497
+	cataclysm:monstrositydeath: 2496
+	cataclysm:monstrositygrowl: 2495
+	cataclysm:monstrosityhurt: 2498
+	cataclysm:monstrosityland: 2500
+	cataclysm:monstrosityshoot: 2499
+	cataclysm:monstrositystep: 2494
+	cataclysm:portal_abyss_blast: 2546
+	cataclysm:prowler_death: 2590
+	cataclysm:prowler_hurt: 2589
+	cataclysm:prowler_idle: 2591
+	cataclysm:prowler_saw_attack: 2601
+	cataclysm:prowler_saw_spin_attack: 2602
+	cataclysm:remnant_bite: 2566
+	cataclysm:remnant_breathing: 2567
+	cataclysm:remnant_charge_prepare: 2568
+	cataclysm:remnant_charge_roar: 2569
+	cataclysm:remnant_charge_step: 2570
+	cataclysm:remnant_death: 2573
+	cataclysm:remnant_hurt: 2572
+	cataclysm:remnant_idle: 2574
+	cataclysm:remnant_music: 2586
+	cataclysm:remnant_roar: 2575
+	cataclysm:remnant_shockwave: 2576
+	cataclysm:remnant_stomp: 2571
+	cataclysm:remnant_tail_slam: 2577
+	cataclysm:remnant_tail_slam_1: 2578
+	cataclysm:remnant_tail_slam_2: 2579
+	cataclysm:remnant_tail_slam_3: 2580
+	cataclysm:remnant_tail_swing: 2581
+	cataclysm:revenant_breath: 2520
+	cataclysm:revenant_death: 2522
+	cataclysm:revenant_hurt: 2521
+	cataclysm:revenant_idle: 2523
+	cataclysm:rocket_launch: 2600
+	cataclysm:sandstorm: 2585
+	cataclysm:shredder_end: 2599
+	cataclysm:shredder_loop: 2598
+	cataclysm:shredder_start: 2597
+	cataclysm:strongswing: 2492
+	cataclysm:swing: 2493
+	cataclysm:sword_stomp: 2513
+	cataclysm:tidal_hook_hit: 2559
+	cataclysm:tidal_hook_loop: 2560
+	cataclysm:tidal_tentacle: 2558
+	cataclysm:voidrunerising: 2509
+	cataclysm:wadjet_ambient: 2607
+	cataclysm:wadjet_death: 2609
+	cataclysm:wadjet_hurt: 2608
+	cataclysm:watcher_death: 2588
+	cataclysm:watcher_hurt: 2587
+
+[02Dec2024 23:25:37.143] [main/WARN] [net.minecraftforge.registries.GameData/REGISTRIES]: Forge Mod Loader detected missing registry entries.
+
+There are 495 missing entries in this save.
+If you continue the missing entries will get removed.
+A world backup will be automatically created in your saves directory.
+
+
+[02Dec2024 23:25:37.143] [main/WARN] [net.minecraftforge.registries.GameData/REGISTRIES]: Missing minecraft:sound_event:
+    cataclysm:abyss_blast
+    cataclysm:abyss_blast_only_charge
+    cataclysm:abyss_blast_only_shoot
+    cataclysm:aptrgangr_death
+    cataclysm:aptrgangr_hurt
+    cataclysm:aptrgangr_idle
+    cataclysm:axe_swing
+    cataclysm:black_hole_closing
+    cataclysm:black_hole_loop
+    cataclysm:black_hole_opening
+    cataclysm:coral_golem_death
+    cataclysm:coral_golem_hurt
+    cataclysm:coralssus_ambient
+    cataclysm:coralssus_death
+    cataclysm:coralssus_hurt
+    cataclysm:coralssus_roar
+    cataclysm:crab_bite
+    cataclysm:crab_death
+    cataclysm:crab_hurt
+    cataclysm:death_laser
+    cataclysm:deepling_death
+    cataclysm:deepling_hurt
+    cataclysm:deepling_idle
+    cataclysm:deepling_light
+    cataclysm:deepling_swing
+    cataclysm:door_of_seal_open
+    cataclysm:draugr_death
+    cataclysm:draugr_hurt
+    cataclysm:draugr_idle
+    cataclysm:emp_activated
+    cataclysm:enderguardian_music
+    cataclysm:enderguardianattack
+    cataclysm:enderguardiandeath
+    cataclysm:enderguardianhurt
+    cataclysm:endermaptera_ambient
+    cataclysm:endermaptera_death
+    cataclysm:endermaptera_hurt
+    cataclysm:endermaptera_step
+    cataclysm:flame_burst
+    cataclysm:flame_trap
+    cataclysm:flamethrower
+    cataclysm:golemattack
+    cataclysm:golemdeath
+    cataclysm:golemhurt
+    cataclysm:hammertime
+    cataclysm:harbinger_charge
+    cataclysm:harbinger_charge_prepare
+    cataclysm:harbinger_deathlaser_prepare
+    cataclysm:harbinger_hurt
+    cataclysm:harbinger_idle
+    cataclysm:harbinger_laser
+    cataclysm:harbinger_mode_change
+    cataclysm:harbinger_music
+    cataclysm:harbinger_prepare
+    cataclysm:harbinger_stun
+    cataclysm:ignis_ambient
+    cataclysm:ignis_armor_break
+    cataclysm:ignis_death
+    cataclysm:ignis_earthquake
+    cataclysm:ignis_hurt
+    cataclysm:ignis_impact
+    cataclysm:ignis_music
+    cataclysm:ignis_poke
+    cataclysm:ignisshieldbreak
+    cataclysm:kobolediator_ambient
+    cataclysm:kobolediator_death
+    cataclysm:kobolediator_hurt
+    cataclysm:koboleton_ambient
+    cataclysm:koboleton_death
+    cataclysm:koboleton_hurt
+    cataclysm:koboleton_step
+    cataclysm:leviathan_bite
+    cataclysm:leviathan_defeat
+    cataclysm:leviathan_hurt
+    cataclysm:leviathan_idle
+    cataclysm:leviathan_music
+    cataclysm:leviathan_music_1
+    cataclysm:leviathan_music_2
+    cataclysm:leviathan_roar
+    cataclysm:leviathan_stun_roar
+    cataclysm:leviathan_tentacle_strike
+    cataclysm:maledictus_battle_cry
+    cataclysm:maledictus_bow_pull
+    cataclysm:maledictus_death
+    cataclysm:maledictus_hurt
+    cataclysm:maledictus_idle
+    cataclysm:maledictus_jump
+    cataclysm:maledictus_leap
+    cataclysm:maledictus_mace_swing
+    cataclysm:maledictus_music
+    cataclysm:maledictus_music_disc
+    cataclysm:maledictus_short_roar
+    cataclysm:maledictus_spear
+    cataclysm:modern_remnant_bite
+    cataclysm:modern_remnant_death
+    cataclysm:modern_remnant_fill_bucket
+    cataclysm:monstrosity_music
+    cataclysm:monstrosityawaken
+    cataclysm:monstrositydeath
+    cataclysm:monstrositygrowl
+    cataclysm:monstrosityhurt
+    cataclysm:monstrosityland
+    cataclysm:monstrosityshoot
+    cataclysm:monstrositystep
+    cataclysm:portal_abyss_blast
+    cataclysm:prowler_death
+    cataclysm:prowler_hurt
+    cataclysm:prowler_idle
+    cataclysm:prowler_saw_attack
+    cataclysm:prowler_saw_spin_attack
+    cataclysm:remnant_bite
+    cataclysm:remnant_breathing
+    cataclysm:remnant_charge_prepare
+    cataclysm:remnant_charge_roar
+    cataclysm:remnant_charge_step
+    cataclysm:remnant_death
+    cataclysm:remnant_hurt
+    cataclysm:remnant_idle
+    cataclysm:remnant_music
+    cataclysm:remnant_roar
+    cataclysm:remnant_shockwave
+    cataclysm:remnant_stomp
+    cataclysm:remnant_tail_slam
+    cataclysm:remnant_tail_slam_1
+    cataclysm:remnant_tail_slam_2
+    cataclysm:remnant_tail_slam_3
+    cataclysm:remnant_tail_swing
+    cataclysm:revenant_breath
+    cataclysm:revenant_death
+    cataclysm:revenant_hurt
+    cataclysm:revenant_idle
+    cataclysm:rocket_launch
+    cataclysm:sandstorm
+    cataclysm:shredder_end
+    cataclysm:shredder_loop
+    cataclysm:shredder_start
+    cataclysm:strongswing
+    cataclysm:swing
+    cataclysm:sword_stomp
+    cataclysm:tidal_hook_hit
+    cataclysm:tidal_hook_loop
+    cataclysm:tidal_tentacle
+    cataclysm:voidrunerising
+    cataclysm:wadjet_ambient
+    cataclysm:wadjet_death
+    cataclysm:wadjet_hurt
+    cataclysm:watcher_death
+    cataclysm:watcher_hurt
+
+Missing minecraft:item:
+    cataclysm:abyss_eye
+    cataclysm:abyssal_egg
+    cataclysm:abyssal_sacrifice
+    cataclysm:altar_of_abyss
+    cataclysm:altar_of_amethyst
+    cataclysm:altar_of_fire
+    cataclysm:altar_of_void
+    cataclysm:amethyst_crab_meat
+    cataclysm:amethyst_crab_shell
+    cataclysm:amethyst_crab_spawn_egg
+    cataclysm:ancient_metal_block
+    cataclysm:ancient_metal_ingot
+    cataclysm:ancient_metal_nugget
+    cataclysm:ancient_remnant_spawn_egg
+    cataclysm:ancient_spear
+    cataclysm:aptrgangr_head
+    cataclysm:aptrgangr_spawn_egg
+    cataclysm:athame
+    cataclysm:black_steel_axe
+    cataclysm:black_steel_block
+    cataclysm:black_steel_fence
+    cataclysm:black_steel_hoe
+    cataclysm:black_steel_ingot
+    cataclysm:black_steel_nugget
+    cataclysm:black_steel_pickaxe
+    cataclysm:black_steel_shovel
+    cataclysm:black_steel_sword
+    cataclysm:black_steel_targe
+    cataclysm:black_steel_wall
+    cataclysm:blackstone_pillar
+    cataclysm:blazing_bone
+    cataclysm:blazing_grips
+    cataclysm:blessed_amethyst_crab_meat
+    cataclysm:bloom_stone_pauldrons
+    cataclysm:bone_reptile_chestplate
+    cataclysm:bone_reptile_helmet
+    cataclysm:bulwark_of_the_flame
+    cataclysm:burning_ashes
+    cataclysm:chain_of_soul_binding
+    cataclysm:chiseled_end_stone_bricks
+    cataclysm:chiseled_obsidian_bricks
+    cataclysm:chiseled_purpur_block
+    cataclysm:chiseled_stone_brick_pillar
+    cataclysm:chorus_fence
+    cataclysm:chorus_planks
+    cataclysm:chorus_slab
+    cataclysm:chorus_stairs
+    cataclysm:chorus_stem
+    cataclysm:coral_bardiche
+    cataclysm:coral_chunk
+    cataclysm:coral_golem_spawn_egg
+    cataclysm:coral_spear
+    cataclysm:coralssus_spawn_egg
+    cataclysm:crystallized_coral
+    cataclysm:crystallized_coral_fragments
+    cataclysm:cursed_bow
+    cataclysm:cursed_eye
+    cataclysm:cursed_tombstone
+    cataclysm:cursium_block
+    cataclysm:cursium_boots
+    cataclysm:cursium_chestplate
+    cataclysm:cursium_helmet
+    cataclysm:cursium_ingot
+    cataclysm:cursium_leggings
+    cataclysm:cursium_upgrade_smithing_template
+    cataclysm:deepling_angler_spawn_egg
+    cataclysm:deepling_brute_spawn_egg
+    cataclysm:deepling_priest_spawn_egg
+    cataclysm:deepling_spawn_egg
+    cataclysm:deepling_warlock_spawn_egg
+    cataclysm:desert_eye
+    cataclysm:door_of_seal
+    cataclysm:draugr_head
+    cataclysm:draugr_spawn_egg
+    cataclysm:dungeon_block
+    cataclysm:dying_ember
+    cataclysm:elite_draugr_spawn_egg
+    cataclysm:emp
+    cataclysm:end_stone_pillar
+    cataclysm:end_stone_teleport_trap_bricks
+    cataclysm:ender_golem_spawn_egg
+    cataclysm:ender_guardian_spawn_egg
+    cataclysm:enderite_block
+    cataclysm:enderite_ingot
+    cataclysm:endermaptera_spawn_egg
+    cataclysm:final_fractal
+    cataclysm:flame_eye
+    cataclysm:frosted_stone_brick_slab
+    cataclysm:frosted_stone_brick_stairs
+    cataclysm:frosted_stone_brick_wall
+    cataclysm:frosted_stone_bricks
+    cataclysm:gauntlet_of_bulwark
+    cataclysm:gauntlet_of_guard
+    cataclysm:gauntlet_of_maelstrom
+    cataclysm:ignis_spawn_egg
+    cataclysm:ignited_berserker_spawn_egg
+    cataclysm:ignited_revenant_spawn_egg
+    cataclysm:ignitium_block
+    cataclysm:ignitium_boots
+    cataclysm:ignitium_chestplate
+    cataclysm:ignitium_elytra_chestplate
+    cataclysm:ignitium_helmet
+    cataclysm:ignitium_ingot
+    cataclysm:ignitium_leggings
+    cataclysm:ignitium_upgrade_smithing_template
+    cataclysm:infernal_forge
+    cataclysm:khopesh
+    cataclysm:kobolediator_skull
+    cataclysm:kobolediator_spawn_egg
+    cataclysm:koboleton_bone
+    cataclysm:koboleton_spawn_egg
+    cataclysm:laser_gatling
+    cataclysm:lionfish
+    cataclysm:lionfish_spawn_egg
+    cataclysm:lionfish_spike
+    cataclysm:maledictus_spawn_egg
+    cataclysm:meat_shredder
+    cataclysm:mech_eye
+    cataclysm:mechanical_fusion_anvil
+    cataclysm:modern_remnant_bucket
+    cataclysm:modern_remnant_spawn_egg
+    cataclysm:monstrous_eye
+    cataclysm:monstrous_helm
+    cataclysm:monstrous_horn
+    cataclysm:music_disc_ancient_remnant
+    cataclysm:music_disc_ender_guardian
+    cataclysm:music_disc_ignis
+    cataclysm:music_disc_maledictus
+    cataclysm:music_disc_netherite_monstrosity
+    cataclysm:music_disc_the_harbinger
+    cataclysm:music_disc_the_leviathan
+    cataclysm:nameless_sorcerer_spawn_egg
+    cataclysm:necklace_of_the_desert
+    cataclysm:netherite_monstrosity_spawn_egg
+    cataclysm:obsidian_brick_slab
+    cataclysm:obsidian_brick_stairs
+    cataclysm:obsidian_brick_wall
+    cataclysm:obsidian_bricks
+    cataclysm:obsidian_explosion_trap_bricks
+    cataclysm:pointed_icicle
+    cataclysm:polished_end_stone
+    cataclysm:polished_end_stone_slab
+    cataclysm:polished_end_stone_stairs
+    cataclysm:polished_obsidian
+    cataclysm:polished_sandstone
+    cataclysm:purpur_void_rune_trap_block
+    cataclysm:purpur_wall
+    cataclysm:quartz_brick_wall
+    cataclysm:remnant_skull
+    cataclysm:royal_draugr_spawn_egg
+    cataclysm:sandstone_falling_trap
+    cataclysm:sandstone_ignite_trap
+    cataclysm:sandstone_poison_dart_trap
+    cataclysm:sandstorm_in_a_bottle
+    cataclysm:soul_render
+    cataclysm:sticky_gloves
+    cataclysm:stone_pillar
+    cataclysm:stone_tile_slab
+    cataclysm:stone_tile_stairs
+    cataclysm:stone_tile_wall
+    cataclysm:stone_tiles
+    cataclysm:the_annihilator
+    cataclysm:the_baby_leviathan_bucket
+    cataclysm:the_baby_leviathan_spawn_egg
+    cataclysm:the_harbinger_spawn_egg
+    cataclysm:the_immolator
+    cataclysm:the_incinerator
+    cataclysm:the_leviathan_spawn_egg
+    cataclysm:the_prowler_spawn_egg
+    cataclysm:the_watcher_spawn_egg
+    cataclysm:tidal_claws
+    cataclysm:void_assault_shoulder_weapon
+    cataclysm:void_core
+    cataclysm:void_crystal
+    cataclysm:void_eye
+    cataclysm:void_forge
+    cataclysm:void_infused_end_stone_bricks
+    cataclysm:void_jaw
+    cataclysm:void_lantern_block
+    cataclysm:void_scatter_arrow
+    cataclysm:void_shard
+    cataclysm:void_stone
+    cataclysm:wadjet_spawn_egg
+    cataclysm:wither_assault_shoulder_weapon
+    cataclysm:witherite_block
+    cataclysm:witherite_ingot
+    cataclysm:wrath_of_the_desert
+    cataclysm:zweiender
+
+Missing minecraft:block:
+    cataclysm:abyssal_egg
+    cataclysm:altar_of_abyss
+    cataclysm:altar_of_amethyst
+    cataclysm:altar_of_fire
+    cataclysm:altar_of_void
+    cataclysm:ancient_metal_block
+    cataclysm:aptrgangr_head
+    cataclysm:aptrgangr_wall_head
+    cataclysm:black_steel_block
+    cataclysm:black_steel_fence
+    cataclysm:black_steel_wall
+    cataclysm:blackstone_pillar
+    cataclysm:chiseled_end_stone_bricks
+    cataclysm:chiseled_obsidian_bricks
+    cataclysm:chiseled_purpur_block
+    cataclysm:chiseled_stone_brick_pillar
+    cataclysm:chorus_fence
+    cataclysm:chorus_planks
+    cataclysm:chorus_slab
+    cataclysm:chorus_stairs
+    cataclysm:chorus_stem
+    cataclysm:cursed_tombstone
+    cataclysm:cursium_block
+    cataclysm:door_of_seal
+    cataclysm:door_of_seal_part
+    cataclysm:draugr_head
+    cataclysm:draugr_wall_head
+    cataclysm:dungeon_block
+    cataclysm:emp
+    cataclysm:end_stone_pillar
+    cataclysm:end_stone_teleport_trap_bricks
+    cataclysm:enderite_block
+    cataclysm:frosted_stone_brick_slab
+    cataclysm:frosted_stone_brick_stairs
+    cataclysm:frosted_stone_brick_wall
+    cataclysm:frosted_stone_bricks
+    cataclysm:ignitium_block
+    cataclysm:kobolediator_skull
+    cataclysm:kobolediator_wall_skull
+    cataclysm:mechanical_fusion_anvil
+    cataclysm:melting_netherrack
+    cataclysm:obsidian_brick_slab
+    cataclysm:obsidian_brick_stairs
+    cataclysm:obsidian_brick_wall
+    cataclysm:obsidian_bricks
+    cataclysm:obsidian_explosion_trap_bricks
+    cataclysm:pointed_icicle
+    cataclysm:polished_end_stone
+    cataclysm:polished_end_stone_slab
+    cataclysm:polished_end_stone_stairs
+    cataclysm:polished_obsidian
+    cataclysm:polished_sandstone
+    cataclysm:purpur_void_rune_trap_block
+    cataclysm:purpur_wall
+    cataclysm:quartz_brick_wall
+    cataclysm:sandstone_falling_trap
+    cataclysm:sandstone_ignite_trap
+    cataclysm:sandstone_poison_dart_trap
+    cataclysm:stone_pillar
+    cataclysm:stone_tile_slab
+    cataclysm:stone_tile_stairs
+    cataclysm:stone_tile_wall
+    cataclysm:stone_tiles
+    cataclysm:void_crystal
+    cataclysm:void_infused_end_stone_bricks
+    cataclysm:void_lantern_block
+    cataclysm:void_stone
+    cataclysm:witherite_block
+
+Missing minecraft:mob_effect:
+    cataclysm:abyssal_burn
+    cataclysm:abyssal_curse
+    cataclysm:abyssal_fear
+    cataclysm:blazing_brand
+    cataclysm:blessing_of_amethyst
+    cataclysm:bone_fracture
+    cataclysm:curse_of_desert
+    cataclysm:ghost_form
+    cataclysm:ghost_sickness
+    cataclysm:monstrous
+    cataclysm:stun
+
+Missing minecraft:entity_type:
+    cataclysm:abyss_blast
+    cataclysm:abyss_blast_portal
+    cataclysm:abyss_mark
+    cataclysm:abyss_mine
+    cataclysm:abyss_orb
+    cataclysm:abyss_portal
+    cataclysm:amethyst_cluster_projectile
+    cataclysm:amethyst_crab
+    cataclysm:ancient_ancient_remnant
+    cataclysm:ancient_desert_stele
+    cataclysm:ancient_remnant
+    cataclysm:aptrgangr
+    cataclysm:ashen_breath
+    cataclysm:axe_blade
+    cataclysm:blazing_bone
+    cataclysm:cm_falling_block
+    cataclysm:coral_bardiche
+    cataclysm:coral_golem
+    cataclysm:coral_spear
+    cataclysm:coralssus
+    cataclysm:cursed_sandstorm
+    cataclysm:death_laser_beam
+    cataclysm:deepling
+    cataclysm:deepling_angler
+    cataclysm:deepling_brute
+    cataclysm:deepling_priest
+    cataclysm:deepling_warlock
+    cataclysm:dimensional_rift
+    cataclysm:draugr
+    cataclysm:earthquake
+    cataclysm:elite_draugr
+    cataclysm:ender_golem
+    cataclysm:ender_guardian
+    cataclysm:ender_guardian_bullet
+    cataclysm:endermaptera
+    cataclysm:eye_of_dungeon
+    cataclysm:flame_strike
+    cataclysm:ignis
+    cataclysm:ignis_abyss_fireball
+    cataclysm:ignis_fireball
+    cataclysm:ignited_berserker
+    cataclysm:ignited_revenant
+    cataclysm:kobolediator
+    cataclysm:koboleton
+    cataclysm:laser_beam
+    cataclysm:lava_bomb
+    cataclysm:lionfish
+    cataclysm:lionfish_spike
+    cataclysm:maledictus
+    cataclysm:mini_abyss_blast
+    cataclysm:modern_remnant
+    cataclysm:nameless_sorcerer
+    cataclysm:netherite_monstrosity
+    cataclysm:phantom_arrow
+    cataclysm:phantom_halberd
+    cataclysm:poison_dart
+    cataclysm:portal_abyss_blast
+    cataclysm:royal_draugr
+    cataclysm:sandstorm
+    cataclysm:sandstorm_projectile
+    cataclysm:screen_shake
+    cataclysm:the_baby_leviathan
+    cataclysm:the_harbinger
+    cataclysm:the_leviathan
+    cataclysm:the_leviathan_tongue
+    cataclysm:the_prowler
+    cataclysm:the_watcher
+    cataclysm:tidal_hook
+    cataclysm:tidal_tentacle
+    cataclysm:void_howitzer
+    cataclysm:void_rune
+    cataclysm:void_scatter_arrow
+    cataclysm:void_shard
+    cataclysm:void_vortex
+    cataclysm:wadjet
+    cataclysm:wall_watcher
+    cataclysm:wither_homing_missile
+    cataclysm:wither_howitzer
+    cataclysm:wither_missile
+    cataclysm:wither_smoke_effect
+
+
+[02Dec2024 23:25:37.144] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: There are unidentified mappings in this world - we are going to attempt to process anyway
+[02Dec2024 23:25:44.466] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/cordi3/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23253!/assets/.mcassetsroot' uses unexpected schema
+[02Dec2024 23:25:44.467] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/cordi3/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23253!/data/.mcassetsroot' uses unexpected schema
+[02Dec2024 23:25:44.645] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:e4mc_minecraft
+[02Dec2024 23:25:44.646] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:cataclysm
+[02Dec2024 23:25:48.289] [main/INFO] [Easy NPC/]: 🗣 Register Easy NPC /easy_npc commands for Easy NPC ...
+[02Dec2024 23:25:48.405] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[02Dec2024 23:25:48.859] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag forge:grapes as it is missing following references: minecraft:red_grape (from letsdo-vinery-forge-1.4.28.jar), 
 	minecraft:white_grape (from letsdo-vinery-forge-1.4.28.jar), 
 	minecraft:savanna_grapes_red (from letsdo-vinery-forge-1.4.28.jar), 
 	minecraft:savanna_grapes_white (from letsdo-vinery-forge-1.4.28.jar), 
@@ -298,7 +1326,7 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER
 	minecraft:taiga_grapes_white (from letsdo-vinery-forge-1.4.28.jar), 
 	minecraft:jungle_grapes_red (from letsdo-vinery-forge-1.4.28.jar), 
 	minecraft:jungle_grapes_white (from letsdo-vinery-forge-1.4.28.jar)
-[27Nov2024 03:41:07.212] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag c:grapes as it is missing following references: minecraft:red_grape (from letsdo-vinery-forge-1.4.28.jar), 
+[02Dec2024 23:25:48.864] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag c:grapes as it is missing following references: minecraft:red_grape (from letsdo-vinery-forge-1.4.28.jar), 
 	minecraft:white_grape (from letsdo-vinery-forge-1.4.28.jar), 
 	minecraft:savanna_grapes_red (from letsdo-vinery-forge-1.4.28.jar), 
 	minecraft:savanna_grapes_white (from letsdo-vinery-forge-1.4.28.jar), 
@@ -306,7 +1334,7 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER
 	minecraft:taiga_grapes_white (from letsdo-vinery-forge-1.4.28.jar), 
 	minecraft:jungle_grapes_red (from letsdo-vinery-forge-1.4.28.jar), 
 	minecraft:jungle_grapes_white (from letsdo-vinery-forge-1.4.28.jar)
-[27Nov2024 03:41:08.207] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:redeco:blocks/soul_terrarium
+[02Dec2024 23:25:50.508] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:redeco:blocks/soul_terrarium
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'redeco:soul_terrarium'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23253!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -358,7 +1386,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-[27Nov2024 03:41:10.185] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe irons_spellbooks:curios/concentration_amulet
+[02Dec2024 23:25:52.450] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe irons_spellbooks:curios/concentration_amulet
 com.google.gson.JsonSyntaxException: Unknown item 'irons_spellbooks:mithril_ingot'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23253!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -394,7 +1422,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'irons_spellbooks:mithril_ingo
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[27Nov2024 03:41:10.302] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe redeco:magenta_upholstery
+[02Dec2024 23:25:52.638] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe redeco:magenta_upholstery
 com.google.gson.JsonSyntaxException: Unknown item 'minecraft:mangenta_wool'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23253!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -430,7 +1458,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'minecraft:mangenta_wool'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[27Nov2024 03:41:10.612] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe slashblade_addon:slashblade_tofu_ishi
+[02Dec2024 23:25:52.998] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe slashblade_addon:slashblade_tofu_ishi
 com.google.gson.JsonSyntaxException: Unknown item 'tofucraft:tofuishi'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23253!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -467,7 +1495,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'tofucraft:tofuishi'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[27Nov2024 03:41:10.711] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe slashblade_addon:tofu_diamond_blade
+[02Dec2024 23:25:53.086] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe slashblade_addon:tofu_diamond_blade
 com.google.gson.JsonSyntaxException: Unknown item 'tofucraft:tofu_upgrade_smithing_template'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23253!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -503,7 +1531,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'tofucraft:tofu_upgrade_smithi
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[27Nov2024 03:41:10.769] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe slashblade_addon:slashblade_tofu_metal
+[02Dec2024 23:25:53.158] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe slashblade_addon:slashblade_tofu_metal
 com.google.gson.JsonSyntaxException: Unknown item 'tofucraft:tofuishi'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23253!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -540,57 +1568,67 @@ com.google.gson.JsonSyntaxException: Unknown item 'tofucraft:tofuishi'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[27Nov2024 03:41:10.787] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 29 recipes
-[27Nov2024 03:41:10.950] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement slashblade_addon:recipes/combat/tofu_diamond_blade: Unknown item id 'slashblade_addon:slashblade_tofu_metal'
-[27Nov2024 03:41:11.220] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement beautify:progression/candelabra: Expected item to be an item, was unknown string 'beautify:lamp_candleabra'
-[27Nov2024 03:41:11.307] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3554 advancements
-[27Nov2024 03:41:11.590] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 12 curio slots
-[27Nov2024 03:41:11.614] [main/ERROR] [top.theillusivec4.curios.Curios/]: talisman is not a registered slot type!
-[27Nov2024 03:41:11.616] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio entities
-[27Nov2024 03:41:18.841] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[27Nov2024 03:41:18.842] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[27Nov2024 03:41:18.842] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[27Nov2024 03:41:18.843] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[27Nov2024 03:41:19.356] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[27Nov2024 03:41:19.420] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[27Nov2024 03:41:19.682] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[27Nov2024 03:41:19.683] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[27Nov2024 03:41:19.684] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[27Nov2024 03:41:19.684] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[27Nov2024 03:41:19.723] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[27Nov2024 03:41:19.724] [Thread-1/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[27Nov2024 03:41:19.726] [Thread-1/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[27Nov2024 03:41:19.964] [Server thread/INFO] [Framework/]: Loading server configs...
-[27Nov2024 03:41:20.862] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
-[27Nov2024 03:41:20.863] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
-[27Nov2024 03:41:20.864] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[27Nov2024 03:41:49.426] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[27Nov2024 03:41:57.209] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[27Nov2024 03:41:57.212] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[27Nov2024 03:41:57.213] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[27Nov2024 03:41:57.224] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[27Nov2024 03:41:57.232] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[27Nov2024 03:41:57.239] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[27Nov2024 03:41:57.246] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[27Nov2024 03:41:57.250] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[27Nov2024 03:41:57.256] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[27Nov2024 03:41:57.260] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[27Nov2024 03:41:57.263] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[27Nov2024 03:41:57.266] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[27Nov2024 03:41:57.269] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[27Nov2024 03:41:57.271] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[27Nov2024 03:41:57.272] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[27Nov2024 03:41:57.274] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[27Nov2024 03:41:57.428] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[27Nov2024 03:41:57.928] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[27Nov2024 03:41:58.599] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
-[27Nov2024 03:41:59.251] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 9824 ms
-[27Nov2024 03:41:59.253] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (39.550s)! For help, type "help"
-[27Nov2024 03:41:59.429] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[27Nov2024 03:42:03.358] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
-[27Nov2024 03:42:03.474] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2112ms or 42 ticks
-[27Nov2024 03:48:06.244] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: MrGatoX0[/127.71.116.14:33845] logged in with entity id 242 at (0.2800680584950233, 69.0, 8.488008499166304)
-[27Nov2024 03:48:06.373] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MrGatoX0 joined the game
-[27Nov2024 03:48:07.411] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2045ms or 40 ticks
-[27Nov2024 03:49:14.695] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MrGatoX0 lost connection: Disconnected
-[27Nov2024 03:49:14.698] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MrGatoX0 left the game
+[02Dec2024 23:25:53.167] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 27 recipes
+[02Dec2024 23:25:53.385] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement slashblade_addon:recipes/combat/tofu_diamond_blade: Unknown item id 'slashblade_addon:slashblade_tofu_metal'
+[02Dec2024 23:25:53.593] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement beautify:progression/candelabra: Expected item to be an item, was unknown string 'beautify:lamp_candleabra'
+[02Dec2024 23:25:53.685] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3643 advancements
+[02Dec2024 23:25:53.759] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 12 curio slots
+[02Dec2024 23:25:53.767] [main/ERROR] [top.theillusivec4.curios.Curios/]: talisman is not a registered slot type!
+[02Dec2024 23:25:53.768] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio entities
+[02Dec2024 23:26:01.416] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[02Dec2024 23:26:01.417] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[02Dec2024 23:26:01.417] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[02Dec2024 23:26:01.417] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[02Dec2024 23:26:01.854] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[02Dec2024 23:26:01.880] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[02Dec2024 23:26:01.983] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[02Dec2024 23:26:01.984] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[02Dec2024 23:26:01.984] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[02Dec2024 23:26:01.984] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[02Dec2024 23:26:02.037] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/jei-server.toml is not correct. Correcting
+[02Dec2024 23:26:02.047] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode was corrected from null to its default, SimpleCommentedConfig:{}. 
+[02Dec2024 23:26:02.049] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode.enableCheatModeForOp was corrected from null to its default, true. 
+[02Dec2024 23:26:02.051] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode.enableCheatModeForCreative was corrected from null to its default, true. 
+[02Dec2024 23:26:02.053] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode.enableCheatModeForGive was corrected from null to its default, false. 
+[02Dec2024 23:26:02.062] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[02Dec2024 23:26:02.064] [Thread-1/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[02Dec2024 23:26:02.065] [Thread-1/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[02Dec2024 23:26:02.384] [Server thread/INFO] [Framework/]: Loading server configs...
+[02Dec2024 23:26:02.411] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[02Dec2024 23:26:03.381] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[02Dec2024 23:26:03.382] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[02Dec2024 23:26:22.221] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[02Dec2024 23:26:31.100] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Dec2024 23:26:31.110] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Dec2024 23:26:31.111] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Dec2024 23:26:31.112] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Dec2024 23:26:31.112] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Dec2024 23:26:31.113] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Dec2024 23:26:31.114] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Dec2024 23:26:31.114] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Dec2024 23:26:31.115] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Dec2024 23:26:31.116] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Dec2024 23:26:31.117] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Dec2024 23:26:31.118] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Dec2024 23:26:31.119] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Dec2024 23:26:31.120] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Dec2024 23:26:31.121] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Dec2024 23:26:31.123] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Dec2024 23:26:31.124] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Dec2024 23:26:31.126] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Dec2024 23:26:31.229] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Dec2024 23:26:31.723] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Dec2024 23:26:32.223] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Dec2024 23:26:32.723] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Dec2024 23:26:33.224] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
+[02Dec2024 23:26:33.682] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 11460 ms
+[02Dec2024 23:26:33.683] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (31.661s)! For help, type "help"
+[02Dec2024 23:26:33.790] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[02Dec2024 23:27:07.230] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: TerryBlaze[/[::1]:39652] logged in with entity id 75 at (-25.5, 63.0, -49.5)
+[02Dec2024 23:27:07.526] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TerryBlaze joined the game
+[02Dec2024 23:27:07.816] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TerryBlaze has made the advancement [Blade MoveSets]
+[02Dec2024 23:27:08.618] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2002ms or 40 ticks
+[02Dec2024 23:27:09.887] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2035ms or 40 ticks behind
+[02Dec2024 23:30:48.066] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: Disconnecting com.mojang.authlib.GameProfile@8f7fef1[id=<null>,name=Luruwu,properties={},legacy=false] (/[::1]:43252): Took too long to log in
+[02Dec2024 23:30:48.067] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@8f7fef1[id=<null>,name=Luruwu,properties={},legacy=false] (/[::1]:43252) lost connection: Took too long to log in
+[02Dec2024 23:30:48.110] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
